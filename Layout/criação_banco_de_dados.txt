@@ -1,0 +1,5 @@
+Nome da base de Dados: servicos
+
+create table cliente_servicos (tipo_usuario varchar(11), senha varchar(30), nome varchar(100), email varchar(50), celular int(11), cpfcnpj int(14), nasc date, cidade varchar(100), uf varchar(2), ddd varchar(2));
+
+create table prestador_servicos (tipo_usuario varchar(11), senha varchar(30), nome varchar(100), nasc date, celular int(11), email varchar(50), rg int(11), cpf int(11), profissao varchar(50), carreira varchar(500), cidade varchar(100), uf varchar(2), ddd varchar(2));
